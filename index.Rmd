@@ -14,7 +14,6 @@ library(leaflet)
 
 ```{r superdome}
 saintslink <- "<a href='https://www.neworleanssaints.com'>New Orleans Saints</a>"
-#"<a href='http://carey.jhu.edu/'>Carey Business School</a>"
 
 superdome <- leaflet() %>%
 addTiles() %>%
