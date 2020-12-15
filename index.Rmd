@@ -1,16 +1,16 @@
 ---
-title: "DMKessler Coursera Data Products Peer Assessment 1"
-author: "David Kessler"
-date: "12/15/2020"
-output: ioslides_presentation
+title: "Coursera Data Products Peer Assessment 1"
+author: "David Miele Kessler"
+date: "December 15, 2020"
+output: 
+  html_document:
+        keep_md: TRUE
 ---
 
 ```{r setup, include=FALSE}
 knitr::opts_chunk$set(echo = FALSE)
 library(leaflet)
 ```
-
-## 12/15/2020
 
 ```{r superdome}
 saintslink <- "<a href='https://www.neworleanssaints.com'>New Orleans Saints</a>"
