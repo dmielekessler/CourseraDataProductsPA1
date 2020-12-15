@@ -1,0 +1,25 @@
+---
+title: "Coursera Data Products Peer Assessment 1"
+author: "David Miele Kessler"
+date: "12/15/2020"
+output:
+  ioslides_presentation:
+    keep_md: yes
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = FALSE)
+library(leaflet)
+```
+
+## 12/15/2020
+```{r superdome}
+saintslink <- "<a href='https://www.neworleanssaints.com'>New Orleans Saints</a>"
+#"<a href='http://carey.jhu.edu/'>Carey Business School</a>"
+
+superdome <- leaflet() %>%
+addTiles() %>%
+    addMarkers(lat=29.951061, lng=-90.081244,
+        popup= saintslink)
+superdome
+```
